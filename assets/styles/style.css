@@ -514,14 +514,10 @@ fieldset input, textarea{
         display: block;
         content: '×';
     }
-    
-    footer{
-        height: auto;
-    }
 
     .footer-container{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 40% 25% 35%;
         height: 100%;
     }
 
@@ -530,9 +526,30 @@ fieldset input, textarea{
         grid-row: 2;
     }
 
+    .intro-text-container {
+        width: 80vw;
+        text-align: center;
+    }
+
     #contact form{
         flex-direction: column;
-        height: 550px;
+        height: 100%;
+    }
+
+    .form-group > div > input{
+        height: 3.4rem;
+    }
+
+    fieldset > input{
+        height: 3.4rem;
+    }
+
+    fieldset  textarea{
+        height: 5rem;
+    }
+
+    fieldset > button{
+        height: 3.7rem;
     }
 
     fieldset, .form-group{
@@ -540,6 +557,10 @@ fieldset input, textarea{
         flex-direction: column;
     }
 
+
+    #contact{
+        height: 125svh;
+    }
 
 
 
